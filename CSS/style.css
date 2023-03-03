@@ -1,0 +1,131 @@
+html {
+    box-sizing: border-box;
+}
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+h1, h2, h3, h4, h5, h6, p, ul, body, input, button {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    max-width: 1340px;
+    margin: 0 auto;
+}
+
+
+.header {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.header__flex-box {
+    display: flex;
+    padding-top: 51px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo-box {
+    padding-left: 1px;
+    margin-right: 8px;
+}
+.nav-bar {
+    list-style: none;
+    display: flex;
+    margin-top: -4px;
+}
+.nav-bar-item {
+    margin-right: 36px;
+}
+.nav-bar-item:nth-child(2) {
+    margin-right: 31px;
+}
+.nav-bar-item:nth-child(3) {
+    margin-right: 57px;
+}
+.nav-bar-item:nth-child(4) {
+    margin-right: 31px;
+}
+.nav-bar-item:last-child {
+    margin-right: 0;
+}
+.nav-bar-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #263238;
+}
+.button-box {
+    margin-top: 4px;
+    margin-right: 1px;
+}
+.button-file {
+    width: 220px;
+    height: 70px;
+    border: 2px solid #263238;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    background-color: #ffffff;
+}
+.header__main_flex-box {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 51px;
+}
+.header__main_left-box {
+    padding-top: 50px;
+    margin-left: -1px;
+}
+.header__main_headline-flex-box {
+    display: flex;
+}
+.header__main_headline_text-h1 {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 80px;
+    color: #000000;
+    max-width: 386px;
+}
+.header__main_icon-file {
+    width: 119.75px;
+    height: 119.75px;
+    margin: 92px 0 0 38px;
+}
+.header__main_text-p {
+    max-width: 550px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #8F95A5;
+    padding-top: 40px;
+    margin-left: -2px;
+}
+.header__main_button-file {
+    width: 438px;
+    height: 118px;
+    background: #263238;
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+    margin-top: 61px;
+}
+.header__main_button-file:hover {
+    opacity: 80%;
+    cursor: pointer;
+}
+.header__main_right_image-box {
+    margin-right: -7px;
+}
+
