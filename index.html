@@ -11,7 +11,7 @@
     <title>5-th site for portfolio</title>
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="home">
         <div class="container">
             <div class="header__flex-box">
                 <div class="header__logo-box">
@@ -19,11 +19,11 @@
                 </div>
                 <div class="nav-bar-box">
                     <ul class="nav-bar">
-                        <li class="nav-bar-item"><a class="nav-bar-link button__style" href="#">Home</a></li>
-                        <li class="nav-bar-item"><a class="nav-bar-link button__style" href="#">Skills</a></li>
-                        <li class="nav-bar-item"><a class="nav-bar-link button__style" href="#">About Us</a></li>
-                        <li class="nav-bar-item"><a class="nav-bar-link button__style" href="#">Pricing</a></li>
-                        <li class="nav-bar-item"><a class="nav-bar-link button__style" href="#">Contacts</a></li>
+                        <li class="nav-bar-item"><a class="nav-bar-link button__style" href="#home">Home</a></li>
+                        <li class="nav-bar-item"><a class="nav-bar-link button__style" href="#skills">Skills</a></li>
+                        <li class="nav-bar-item"><a class="nav-bar-link button__style" href="#about_us">About Us</a></li>
+                        <li class="nav-bar-item"><a class="nav-bar-link button__style" href="#pricing">Pricing</a></li>
+                        <li class="nav-bar-item"><a class="nav-bar-link button__style" href="#contacts">Contacts</a></li>
                     </ul>
                 </div>
                 <div class="button-box">
@@ -36,7 +36,7 @@
                         <h1 class="header__main_headline_text-h1">Learn<br>Any Foreign Language</h1>
                         <img class="header__main_icon-file" src="img/header__icon_lamp.png" alt="header__icon">
                     </div>
-                    <p class="header__main_text-p">With our teachers who write a program for each student, you will be able to make your first sketch after the first lesson.</p>
+                    <p class="header__main_text-p header__main_text-p_alignment">With our teachers who write a program for each student, you will be able to make your first sketch after the first lesson.</p>
                     <button class="button__style header__main_button-file">Get started</button>
                 </div>
                 <div class="header__main_right-box">
@@ -47,7 +47,7 @@
             </div>
         </div>
     </header>
-    <section class="skills">
+    <section class="skills" id="skills">
         <div class="container">
             <h2 class="h2-styles skills__headline_text-h2">Skills</h2>
             <div class="skills__grid-box">
@@ -62,8 +62,6 @@
                     <p class="skills__p-style skills__speaking_p-style-2">Learn English online and improve your skills through our high-quality courses and resources – all designed for adult language learners.</p>
                     <button class="button__style skills__speaking_button__style">Learn more</button>
                 </div>
-
-
                 <div class="skills__card skills__writing-card">
                     <div class="skills__image-box">
                         <img class="skills__writing-image-box" src="img/skills-section's__2-nd_image.png" alt="skills-img">
@@ -72,8 +70,6 @@
                     <p class="skills__p-style skills__writing_p-style">One of the most important and extensive areas of natural science, the science that studies substances, also their composition</p>
                     <button class="button__style skills__button__style skills__writing_button__style">Learn more</button>
                 </div>
-
-
                 <div class="skills__card skills__reading-card">
                     <div class="skills__image-box">
                         <img  class="skills__reading-image-box" src="img/skills-section's__3-rd_image.png" alt="skills-img">
@@ -82,8 +78,6 @@
                     <p class="skills__p-style skills__reading_p-style">perception and response actions of the user resulting from the use and/or upcoming use of the product, system or service</p>
                     <button class="button__style skills__button__style skills__reading_button__style">Learn more</button>
                 </div>
-
-
                 <div class="skills__card skills__listening-card-flex">
                     <div class="skills__listening-card">
                         <h3 class="skills__h3-style skills__listening_h3-style">Listening</h3>
@@ -94,12 +88,10 @@
                         <img  class="skills__listening-image-file" src="img/skills-section's__4-th_image.png" alt="skills-img">
                     </div>
                 </div>
-
-
             </div>
         </div>
     </section>
-    <section class="about_us">
+    <section class="about_us" id="about_us">
         <div class="container">
             <div class="about_us__flex">
                 <div class="about_us__text-box">
@@ -126,7 +118,7 @@
             </div>
         </div>
     </section>
-    <section class="pricing">
+    <section class="pricing" id="pricing">
         <div class="container">
             <h2 class="h2-styles pricing__headline_text-h2">Pricing</h2>
             <div class="pricing__flex">
@@ -151,5 +143,39 @@
             </div>
         </div>
     </section>
+    <section class="contact_us" id="contacts">
+        <div class="container">
+            <div class="contact_us__flex">
+                <div class="contact_us__image-box">
+                    <img class="contact_us__image__file" src="img/ContactUs_section's_image.png" alt="ContactUs_image">
+                </div>
+                <div class="contact_us__text-box">
+                    <h2 class="h2-styles contact_us__headline_text-h2">Contact Us</h2>
+                    <p class="pricing__p-style contact_us__offer_p-style">Discover your current English level by taking our free online English test.Sign up to our newsletter for learning tips and free resources</p>
+                    <form class="contact_us__form-flex">
+                        <input class="contact_us__input" type="email" placeholder="Enter Your E-mail">
+                        <button class="button__style contact_us__button">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-line"></div>
+            <div class="footer__flex">
+                <a class="footer__logo-box" href="#home">
+                    <img class="logo-file" src="img/logo_Britlex.svg" alt="logo">
+                </a>
+                <div class="footer__nav-bar-box">
+                    <ul class="footer__nav-bar">
+                        <li class="header__main_text-p footer__nav-bar-item"><a class="footer__nav-bar-link button__style" href="#">Terms and Conditions</a></li>
+                        <li class="header__main_text-p footer__nav-bar-item"><a class="footer__nav-bar-link button__style" href="#">• Privacy Policy</a></li>
+                        <li class="header__main_text-p footer__nav-bar-item"><a class="footer__nav-bar-link button__style" href="#">• Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
