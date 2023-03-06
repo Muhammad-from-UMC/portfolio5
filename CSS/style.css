@@ -270,3 +270,165 @@ body {
     margin: 24px 0 0 41px;
 }
 
+
+.about_us {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.about_us__flex {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 282px;
+}
+.about_us__text-box {
+    margin-left: 1px;
+}
+.about_us__headline_text-h2 {
+    padding-top: 1px;
+}
+.about_us__text-p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #8F95A5;
+}
+.about_us__text-p_alignment {
+    max-width: 635px;
+    margin: 22px 0 40px 0;
+}
+.about_us__the_number__flex-box {
+    display: flex;
+    justify-content: space-between;
+}
+.about_us__the_number_of-Teachers__text-box {
+    margin-left: 43px;
+}
+.about_us__the_number_of-Foreign-lang__text-box {
+    margin-right: 33px;
+}
+.about_us__the_number_text-h2 {
+    text-align: center;
+}
+.about_us__the_number-Foreign-lang_text-h2 {
+    text-align: center;
+    margin-left: -9px;
+}
+.about_us__the_number-Pupils_text-p {
+    text-align: center;
+    margin-top: -3px;
+}
+.about_us__the_number-Teachers_text-p {
+    text-align: center;
+    margin: -2px 0 0 6px;
+}
+.about_us__the_number-Foreign-lang_text-p {
+    text-align: center;
+    margin: -4px -9px 0 0;
+    
+}
+.about_us-image-file {
+    margin: -30px 10px;
+}
+
+
+.pricing {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.pricing__headline_text-h2 {
+    text-align: center;
+    padding-top: 212px;
+    margin-bottom: 56px;
+}
+.pricing__flex {
+    display: flex;
+    justify-content: space-between;
+}
+.pricing__card {
+    margin-right: 6px;
+}
+.pricing-card__image_self-study {
+    padding-left: 25px;
+}
+.pricing__h3-style {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    color: #263238;
+}
+.pricing__self-study_h3-style {
+    max-width: 372px;
+    padding-top: 34px
+}
+.pricing__p-style {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #8F95A5;
+}
+.pricing__self-study_p-style {
+    max-width: 430px;
+    padding-top: 18px;
+}
+.pricing-card__button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #546269;
+    height: 45px;
+    width: 240px;
+    border-radius: 5px;
+    border: none;
+    background-color: #EEEEEE;    
+}
+.pricing-card__button_span-text-stye {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    color: #263238;
+    vertical-align: middle;
+}
+.pricing-card__button_self-study {
+    margin-top: 29px;
+}
+.pricing-card__button_self-study_span-text_alignment {
+    margin-right: 8px;
+}
+.pricing-card__image_live {
+    padding: 26px 0 0 22px;
+}
+.pricing__live_h3-style {
+    padding: 36px 0 0 25px;
+}
+.pricing__live_p-style {
+    max-width: 430px;
+    padding: 22px 0 0 25px;
+}
+.pricing-card__button_Live {
+    margin: 59px 0 0 27px;
+}
+.pricing-card__button_Live_span-text_alignment {
+    margin: 0 3px 0 -8px;
+}
+.pricing-card__image_personal-tuition {
+    padding-left: 50px;
+}
+.pricing__personal-tuition_h3-style {
+    padding-top: 5px;
+}
+.pricing__personal-tuition_p-style {
+    max-width: 430px;
+    padding-top: 19px;
+}
+.pricing-card__button_personal-tuition {
+    margin-top: 59px;
+}
+.pricing-card__button_personal-tuition_span-text_alignment {
+    margin: 0 3px 0 -7px;
+}
+
