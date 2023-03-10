@@ -11,6 +11,9 @@ h1, h2, h3, h4, h5, h6, p, ul, body, input, button {
 body {
     font-family: 'Poppins', sans-serif;
 }
+.container-alignment {
+    margin: 0 auto;
+}
 .container {
     max-width: 1340px;
     margin: 0 auto;
@@ -28,12 +31,11 @@ body {
 .header__flex-box {
     display: flex;
     padding-top: 51px;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
 .header__logo-box {
-    padding-left: 1px;
+    margin-left: 1px;
     margin-right: 8px;
 }
 .nav-bar {
@@ -487,7 +489,7 @@ body {
     margin: 0 auto;
 }
 .footer-line {
-    width: 1338px;
+    max-width: 1338px;
     height: 1px;
     background: #C4C4C4;
 }
@@ -515,3 +517,381 @@ body {
     text-decoration: none;
     color: #8F95A5;
 }
+
+
+@media screen and (max-width: 992px) {
+    .container-alignment {
+        max-width: 992px;
+    }
+    .container {
+        max-width: 934px;
+        margin: 0 28px 0 30px;
+    }
+    .header__flex-box {
+        padding-top: 29px;
+    }
+    .header__logo-box {
+        margin-left: 2px;
+        margin-right: 65px;
+    }
+    .logo-file {
+        width: 89px;
+        height: 45px;
+    }
+    .nav-bar {
+        margin-top: 3px;
+    }
+    .nav-bar-item {
+        margin-right: 30px;
+    }
+    .nav-bar-item:nth-child(2) {
+        margin-right: 25px;
+    }
+    .nav-bar-item:nth-child(3) {
+        margin-right: 45px;
+    }
+    .nav-bar-item:nth-child(4) {
+        margin-right: 25px;
+    }
+    .nav-bar-link {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .button-box {
+        margin-top: -10px;
+        margin-right: -14px;
+    }
+    .button-file {
+        width: 160px;
+        height: 50px;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .header__main_flex-box {
+        padding-top: 62px;
+    }
+    .header__main_left-box {
+        padding-top: 14px;
+        margin-left: 0;
+    }
+    .header__main_headline_text-h1 {
+        font-size: 48px;
+        line-height: 64px;
+        max-width: 300px;
+    }
+    .header__main_icon-file {
+        width: 83.02px;
+        height: 83.02px;
+        margin: 89px 0 0 1px;
+    }
+    .header__main_text-p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .header__main_text-p_alignment {
+        max-width: 420px;
+        padding-top: 26px;
+        margin-left: 3px;
+    }
+    .header__main_button-file {
+        width: 292px;
+        height: 80px;
+        border-radius: 5px;
+        font-size: 24px;
+        line-height: 36px;
+        margin-top: 33px;
+    }
+    .header__main_right_image-box {
+        margin-right: -24px;
+    }
+    .header__main_image-file {
+        width: 460px;
+    }
+    .h2-styles {
+        font-size: 36px;
+    }
+    .skills__headline_text-h2 {
+        padding: 41px 0 0 15px;
+        margin-bottom: 51px;
+    }
+    .skills__grid-box {
+        margin-left: 2px;
+        gap: 13px 12px;
+        grid-template-columns: 303px 302px 302px;
+        grid-template-rows: 442px 241px;
+    }
+    .skills__listening-card-flex {
+        justify-content: space-between;
+    }
+    .skills__speaking-image-box {
+        width: 260px;
+        padding: 0;
+        margin: 0 0 0 22px;
+    }
+    .skills__writing-image-box {
+        height: 205px;
+        padding-left: 88px;
+        margin-top: 6px;
+    }
+    .skills__reading-image-box {
+        width: 243px;
+        padding-top: 16px;
+        margin-left: 4px;
+    }
+    .skills__listening-image-file {
+        width: 254px;
+        padding: 0;
+        margin: 33px 17px 0 0;
+    }
+    .skills__h3-style {
+        font-size: 22px;
+    }
+    .skills__speaking_h3-style {
+        padding: 0;
+        margin: -6px 0 -9px 29px;
+    }
+    .skills__writing_h3-style {
+        padding-left: 0;
+        margin: -36px 0 -15px 30px;
+    }
+    .skills__reading_h3-style {
+        padding-left: 0;
+        margin: -3px 0 -18px 27px;
+    }
+    .skills__listening_h3-style {
+        padding: 0;
+        margin: 4px 0 -14px 30px;
+    }
+    .skills__p-style {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .skills__speaking_p-style-1 {
+        max-width: 250px;
+        margin-left: 28px;
+    }
+    .skills__speaking_p-style-2 {
+        max-width: 200px;
+        margin: 21px 0 24px 28px;
+    }
+    .skills__writing_p-style {
+        max-width: 245px;
+        margin-left: 30px;
+        margin-top: 2px;
+    }
+    .skills__reading_p-style {
+        max-width: 245px;
+        margin-left: 27px;
+        margin-top: 2px;
+    }
+    .skills__listening_p-style {
+        max-width: 300px;
+        margin-left: 33px;
+        margin-top: 0;
+    }
+    .skills__button__style {
+        width: 196px;
+        height: 57px;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .skills__speaking_button__style {
+        margin-left: 28px;
+        width: 196px;
+        height: 57px;
+    }
+    .skills__writing_button__style {
+        margin: 22px 0 0 30px;
+    }
+    .skills__reading_button__style {
+        margin: 23px 0 0 28px;
+    }
+    .skills__listening_button__style {
+        margin: 17px 0 0 30px;    
+    }
+    .about_us__flex {
+        padding-top: 106px;
+    }
+    .about_us__text-p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .about_us__text-p_alignment {
+        max-width: 530px;
+        margin: 13px 0 12px 0;
+    }
+    .about_us__the_number__flex-box {
+        max-width: 429px;
+    }
+    .about_us__the_number_of-Pupils__text-box {
+        margin-left: 7px;
+    }
+    .about_us__the_number_of-Teachers__text-box {
+        margin-left: 4px;
+        margin-top: -5px;
+    }
+    .about_us__the_number_of-Foreign-lang__text-box {
+        margin-right: 32px;
+        margin-top: -5px;
+    }
+    .about_us__the_number_text-h2 {
+        font-size: 30px;
+        color: #2a3246;
+    }
+    .about_us__the_number-Foreign-lang_text-h2 {
+        font-size: 30px;
+        color: #2a3246;
+        margin-left: -9px;
+    }
+    .about_us__the_number-Pupils_text-p {
+        margin-top: -12px;
+    }
+    .about_us__the_number-Teachers_text-p {
+        margin: -7px 0 0 4px;
+    }
+    .about_us__the_number-Foreign-lang_text-p {
+        margin: -7px -9px 0 0;
+        
+    }
+    .about_us-image-file {
+        width: 336px;
+        margin: -4px 6px 0 0;
+    }
+    .pricing__headline_text-h2 {
+        padding: 125px 0 0 15px;
+        margin-bottom: 9px;
+    }
+    .pricing__card {
+        margin-right: 0;
+    }
+    .pricing-card__image_self-study {
+        width: 222px;
+        padding: 0;
+        margin: 12px 0 0 15px;
+    }
+    .pricing__h3-style {
+        font-size: 22px;
+    }
+    .pricing__self-study_h3-style {
+        max-width: 300px;
+        padding-top: 14px;
+        line-height: 34px;
+    }
+    .pricing__p-style {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .pricing__self-study_p-style {
+        max-width: 307px;
+        padding: 14px 0 0 2px;
+    }
+    .pricing-card__button {
+        font-size: 16px;
+        line-height: 24px;
+        width: 205px;   
+    }
+    .pricing-card__button_span-text-stye {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .pricing-card__button_self-study {
+        margin-top: 30px;
+    }
+    .pricing-card__button_self-study_span-text_alignment {
+        margin-right: 9px;
+    }
+    .pricing-card__image_live {
+        width: 267px;
+        padding: 0;
+        margin: 38px 0 0 -43px;
+    }
+    .pricing__live_h3-style {
+        padding: 0;
+        margin: 10px 0 0 -24px;
+    }
+    .pricing__live_p-style {
+        max-width: 280px;
+        padding: 0;
+        margin: 9px 0 0 -23px;
+    }
+    .pricing-card__button_Live {
+        margin: 51px 0 0 -23px;
+    }
+    .pricing-card__button_Live_span-text_alignment {
+        margin: 0 7px 0 -2px;
+    }
+    .pricing-card__image_personal-tuition {
+        width: 242px;
+        padding-left: 0;
+        margin: 0 0 0 -17px;
+    }
+    .pricing__personal-tuition_h3-style {
+        padding-top: 0;
+        margin: -1px 0 0;
+    }
+    .pricing__personal-tuition_p-style {
+        max-width: 260px;
+        padding-top: 0;
+        margin: 1px -16px 0 0;
+    }
+    .pricing-card__button_personal-tuition {
+        margin: 33px 0 0;
+    }
+    .pricing-card__button_personal-tuition_span-text_alignment {
+        margin: 0 6px 0 6px;
+    }
+    .contact_us__image-box {
+        margin: 140px 109px 0 -17px;
+    }
+    .contact_us__image__file {
+        width: 312px;
+    }
+    .contact_us__headline_text-h2 {
+        margin: 136px 0 3px 14px;
+    }
+    .contact_us__offer_p-style {
+        max-width: 450px;
+        margin-bottom: 33px;
+    }
+    .contact_us__input {
+        width: 323px;
+        height: 60px;
+        font-size: 14px;
+        line-height: 21px;
+        margin: 0px 14px 194px 0;
+        padding-left: 37px;
+    }
+    .contact_us__button {
+        width: 193px;
+        height: 60px;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 0;
+    }
+    .footer {
+        min-height: auto;
+    }
+    .footer-line {
+        max-width: 929px;
+        margin: 0 -12px 0 0;
+    }
+    .footer__flex {
+        padding: 21px 0 18px;
+    }
+    .footer__logo-box {
+        padding-left: 1px;
+    }
+    .footer__nav-bar-box {
+        margin-right: -13px;
+        padding-top: 17px;
+    }
+    .footer__nav-bar-item {
+        margin-left: 4px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+
+
