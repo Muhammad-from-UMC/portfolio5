@@ -255,7 +255,7 @@ body {
     color: #263238;
 }
 .skills__speaking_h3-style {
-    padding: 0 0 6px 40px;
+    padding: 1px 0 5px 40px;
     margin-top: -3px;
 }
 .skills__writing_h3-style {
@@ -271,7 +271,7 @@ body {
 }
 .skills__p-style {
     font-weight: 400;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 24px;
     color: #8F95A5;
 }
@@ -281,7 +281,7 @@ body {
 }
 .skills__speaking_p-style-2 {
     max-width: 340px;
-    margin: 23px 0 35px 39px;
+    margin: 24px 0 35px 40px;
 }
 .skills__writing_p-style {
     max-width: 347px;
@@ -338,16 +338,15 @@ body {
     max-width: 1600px;
     margin: 0 auto;
 }
+.about_us__headline_text-h2 {
+    padding-top: 283px;
+}
 .about_us__flex {
     display: flex;
     justify-content: space-between;
-    padding-top: 282px;
 }
 .about_us__text-box {
     margin-left: 1px;
-}
-.about_us__headline_text-h2 {
-    padding-top: 1px;
 }
 .about_us__text-p {
     font-weight: 400;
@@ -390,7 +389,7 @@ body {
     
 }
 .about_us-image-file {
-    margin: -30px 10px;
+    margin: -111px 10px 0 0;
 }
 
 
@@ -400,7 +399,7 @@ body {
 }
 .pricing__headline_text-h2 {
     text-align: center;
-    padding-top: 212px;
+    padding-top: 182px;
     margin-bottom: 56px;
 }
 .pricing__flex {
@@ -502,18 +501,20 @@ body {
 }
 .contact_us__flex {
     display: flex;
+    margin-bottom: 126px;
 }
 .contact_us__image-box {
-    margin: 257px 111px 0 -18px;
+    margin: -150px 111px 0 -18px;
 }
 .contact_us__headline_text-h2 {
-    margin: 291px 0 36px;
+    margin: 291px 0 36px 570px;
 }
 .contact_us__offer_p-style {
     margin-bottom: 52px;
 }
 .contact_us__form-flex {
     display: flex;
+    margin-bottom: 20px;
 }
 .contact_us__input {
     width: 450px;
@@ -525,7 +526,7 @@ body {
     line-height: 24px;
     color: #8F95A5;
     font-family: 'Poppins', sans-serif;
-    margin: 0px 12px 220px 1px;
+    margin: 0px 12px 15px 1px;
     padding-left: 32px;
 }
 .contact_us__button {
@@ -583,16 +584,59 @@ body {
         padding: 0 10px;
     }
 }
-@media screen and (max-width: 1328px) {
+@media screen and (max-width: 1316px) {
+.contact_us__headline_text-h2 {
+    margin-top: 241px;
+    }
     .contact_us__form-flex {
         flex-wrap: wrap;
-        margin-bottom: 20px;
+        margin-bottom: 120px;
     }
     .contact_us__input {
         margin-bottom: 10px;
     }
+    .skills__grid-box {
+        grid-template-columns: 32% 32% 32%;
+        grid-template-rows: 531px 343px;
+    }
+    .skills__speaking-image-box {
+        padding: 0;
+        margin: 0 auto;
+        display: block;
+    }
+    .skills__writing-image-box {
+        padding: 0;
+        margin: 0 auto;
+        display: block;
+    }    
+    .skills__reading-image-box {
+        padding: 0;
+        margin: 0 auto;
+        display: block;
+    }
+    .skills__speaking_p-style,
+    .skills__writing_p-style
+    .skills__reading_p-style {
+        padding-right: 10px;
+    }  
 }
-@media screen and (max-width: 1260px) {
+@media screen and (max-width: 1177px) {
+    .header__main_image-file,
+    .skills__reading-image-box,
+    .skills__speaking-image-box,
+    .pricing-card__image_self-study,
+    .pricing-card__image_live,
+    .pricing-card__image_personal-tuition {
+        width: 95%;
+        padding: 0 10px 0 0;
+        margin: 0 auto;
+        display: block;
+    }
+    .header__main_image-file {
+        max-width: 521px;
+    }
+}
+@media screen and (max-width: 992px) {
     .container-alignment {
         padding: 0;
         max-width: 992px;
@@ -634,7 +678,7 @@ body {
     }
     .button-box {
         margin-top: -10px;
-        margin-right: -14px;
+        margin-right: 3px;
     }
     .button-file {
         width: 160px;
@@ -677,16 +721,17 @@ body {
         margin-top: 33px;
     }
     .header__main_right_image-box {
-        margin-right: -24px;
+        margin-right: -7px;
     }
     .header__main_image-file {
         width: 460px;
+        padding-right: 0;
     }
     .h2-styles {
         font-size: 36px;
     }
     .skills__headline_text-h2 {
-        padding: 41px 0 0 15px;
+        padding: 48px 0 0 0px;
         margin-bottom: 51px;
     }
     .skills__grid-box {
@@ -705,13 +750,14 @@ body {
     }
     .skills__writing-image-box {
         height: 205px;
-        padding-left: 88px;
+        padding-left: 78px;
         margin-top: 6px;
     }
     .skills__reading-image-box {
         width: 243px;
         padding-top: 16px;
         margin-left: 4px;
+        padding-right: 0;
     }
     .skills__listening-image-file {
         width: 254px;
@@ -723,15 +769,15 @@ body {
     }
     .skills__speaking_h3-style {
         padding: 0;
-        margin: -6px 0 -9px 29px;
+        margin: 1px 0 -9px 29px;
     }
     .skills__writing_h3-style {
         padding-left: 0;
-        margin: -36px 0 -15px 30px;
+        margin: -29px 0 -15px 30px;
     }
     .skills__reading_h3-style {
         padding-left: 0;
-        margin: -3px 0 -18px 27px;
+        margin: 4px 0 -18px 27px;
     }
     .skills__listening_h3-style {
         padding: 0;
@@ -784,8 +830,11 @@ body {
     .skills__listening_button__style {
         margin: 17px 0 0 30px;    
     }
+    .about_us__headline_text-h2 {
+        padding-top: 107px;
+    }
     .about_us__flex {
-        padding-top: 106px;
+        padding-top: 0;
     }
     .about_us__text-p {
         font-size: 16px;
@@ -826,14 +875,13 @@ body {
     }
     .about_us__the_number-Foreign-lang_text-p {
         margin: -7px -9px 0 0;
-        
     }
     .about_us-image-file {
         width: 336px;
-        margin: -4px 6px 0 0;
+        margin: -85px 23px 0 0;
     }
     .pricing__headline_text-h2 {
-        padding: 125px 0 0 15px;
+        padding: 125px 0 0;
         margin-bottom: 9px;
     }
     .pricing__card {
@@ -849,7 +897,7 @@ body {
     }
     .pricing__self-study_h3-style {
         max-width: 300px;
-        padding-top: 14px;
+        padding-top: 21px;
         line-height: 34px;
     }
     .pricing__p-style {
@@ -857,7 +905,7 @@ body {
         line-height: 24px;
     }
     .pricing__self-study_p-style {
-        max-width: 307px;
+        max-width: 295px;
         padding: 14px 0 0 2px;
     }
     .pricing-card__button {
@@ -878,54 +926,58 @@ body {
     .pricing-card__image_live {
         width: 267px;
         padding: 0;
-        margin: 38px 0 0 -43px;
+        margin: 38px 0 0 -68px;
     }
     .pricing__live_h3-style {
         padding: 0;
-        margin: 10px 0 0 -24px;
+        margin: 17px 0 0 -49px;
     }
     .pricing__live_p-style {
-        max-width: 280px;
+        max-width: 259px;
         padding: 0;
-        margin: 9px 0 0 -23px;
+        margin: 9px 0 0 -48px;
     }
     .pricing-card__button_Live {
-        margin: 51px 0 0 -23px;
+        margin: 51px 0 0 -48px;
     }
     .pricing-card__button_Live_span-text_alignment {
         margin: 0 7px 0 -2px;
     }
     .pricing-card__image_personal-tuition {
         width: 242px;
-        padding-left: 0;
-        margin: 0 0 0 -17px;
+        padding: 0;
+        margin: 0 0 0 -33px;
     }
     .pricing__personal-tuition_h3-style {
         padding-top: 0;
-        margin: -1px 0 0;
+        margin: 6px -16px 0;
     }
     .pricing__personal-tuition_p-style {
-        max-width: 260px;
+        max-width: 261px;
         padding-top: 0;
-        margin: 1px -16px 0 0;
+        margin: 1px 0 0 -16px;
     }
     .pricing-card__button_personal-tuition {
-        margin: 33px 0 0;
+        margin: 33px 0 0 -16px;
     }
     .pricing-card__button_personal-tuition_span-text_alignment {
         margin: 0 6px 0 6px;
     }
+    .contact_us__flex {
+        margin-bottom: 150px;
+    }
     .contact_us__form-flex {
         flex-wrap: nowrap;
+        margin-bottom: 20px;
     }
     .contact_us__image-box {
-        margin: 140px 109px 0 -17px;
+        margin: -79px 109px 0 -17px;
     }
     .contact_us__image__file {
         width: 312px;
     }
     .contact_us__headline_text-h2 {
-        margin: 136px 0 3px 14px;
+        margin: 136px 0 3px 418px;
     }
     .contact_us__offer_p-style {
         max-width: 450px;
@@ -936,7 +988,7 @@ body {
         height: 60px;
         font-size: 14px;
         line-height: 21px;
-        margin: 0px 14px 194px 0;
+        margin: 0px 14px 15px 0;
         padding-left: 37px;
     }
     .contact_us__button {
@@ -951,7 +1003,7 @@ body {
     }
     .footer-line {
         max-width: 929px;
-        margin: 0 -12px 0 0;
+        margin: 0 0 0 2px;
     }
     .footer__flex {
         padding: 21px 0 18px;
@@ -960,7 +1012,7 @@ body {
         padding-left: 1px;
     }
     .footer__nav-bar-box {
-        margin-right: -13px;
+        margin-right: 4px;
         padding-top: 17px;
     }
     .footer__nav-bar-item {
@@ -993,7 +1045,15 @@ body {
     }    
 }
 
-
+@media screen and (max-width: 900px) {
+    .pricing__self-study_p-style {
+        max-width: 250px;
+        margin-bottom: -25px;
+    }
+    .pricing__self-study_h3-style {
+        max-width: 270px;
+    }
+}
 
 @media screen and (max-width: 836px) {
     .container-alignment {
@@ -1007,6 +1067,7 @@ body {
 
     .burger {
         display: block;
+        margin-right: 17px;
     }
     .nav-bar-box, .button-box {
         display: none;
@@ -1054,7 +1115,7 @@ body {
         margin-top: 31px;
     }
     .header__main_right_image-box {
-        margin-right: -22px;
+        margin-right: -5px;
     }
     .header__main_image-file {
         width: 352px;
@@ -1063,8 +1124,8 @@ body {
         font-size: 30px;
     }
     .skills__headline_text-h2 {
-        padding: 55px 0 0;
-        margin-bottom: 35px;
+        padding: 0;
+        margin: 57px 18px 35px 0;
     }
     .skills__grid-box {
         margin-left: 0;
@@ -1082,7 +1143,8 @@ body {
     }
     .skills__writing-image-box {
         max-height: 200px;
-        padding-left: 3px;
+        padding-left: 0px;
+        margin-left: 3px;
         margin-top: 15px;
     }
     .skills__reading-image-box {
@@ -1100,19 +1162,19 @@ body {
     }
     .skills__speaking_h3-style {
         padding: 0;
-        margin: -5px 0 -13px 17px;
+        margin: 2px 0 -13px 17px;
     }
     .skills__writing_h3-style {
         padding-left: 0;
-        margin: -39px 0 -18px 16px;
+        margin: -32px 0 -18px 16px;
     }
     .skills__reading_h3-style {
         padding-left: 0;
-        margin: -7px 0 -18px 17px;
+        margin: 0 0 -18px 17px;
     }
     .skills__listening_h3-style {
         padding: 0;
-        margin: -9px 0 -21px 22px;
+        margin: -3px 0 -17px 22px;
     }
     .skills__p-style {
         font-size: 13px;
@@ -1164,8 +1226,12 @@ body {
     .skills__listening_button__style {
         margin: 5px 0 0 21px;    
     }
+    .about_us__headline_text-h2 {
+        padding: 0;
+        margin: 53px 0 0 1px;
+    }
     .about_us__flex {
-        padding-top: 52px;
+        padding-top: 0;
     }
     .about_us__text-p {
         font-size: 14px;
@@ -1215,11 +1281,11 @@ body {
     }
     .about_us-image-file {
         width: 295px;
-        margin: 36px -4px 0 0;
+        margin: -45px 13px 0 0;
     }
     .pricing__headline_text-h2 {
-        padding: 84px 0 0;
-        margin-bottom: 0px;
+        padding: 0;
+        margin: 84px 18px 0 0;
     }
     .pricing__card {
         margin-right: 0;
@@ -1235,7 +1301,7 @@ body {
     }
     .pricing__self-study_h3-style {
         max-width: 174px;
-        padding-top: 16px;
+        padding-top: 23px;
         margin-left: -2px;
     }
     .pricing__p-style {
@@ -1255,7 +1321,7 @@ body {
         line-height: 33px;
     }
     .pricing-card__button_self-study {
-        margin-top: 23px;
+        margin-top: 48px;
     }
     .pricing-card__button_self-study_span-text_alignment {
         margin-right: 16px;
@@ -1265,20 +1331,20 @@ body {
         width: 219px;
         height: 168px;
         padding: 0;
-        margin: 60px 0 0 30px;
+        margin: 60px 0 0 24px;
     }
     .pricing__live_h3-style {
         max-width: 112px;
         padding: 0;
-        margin: 16px 0 0 36px;
+        margin: 23px 0 0 30px;
     }
     .pricing__live_p-style {
         max-width: 213px;
         padding: 0;
-        margin: 14px 0 0 36px;
+        margin: 14px 0 0 30px;
     }
     .pricing-card__button_Live {
-        margin: 44px 0 0 36px;
+        margin: 44px 0 0 30px;
     }
     .pricing-card__button_Live_span-text_alignment {
         margin: 0 9px 0 -6px;
@@ -1286,32 +1352,35 @@ body {
     .pricing-card__image_personal-tuition {
         width: 210px;
         padding-left: 0;
-        margin: 25px 0 0 27px;
+        margin: 25px 0 0 21px;
     }
     .pricing__personal-tuition_h3-style {
         max-width: 94px;
-        margin: 8px 0 0 27px;
+        margin: 15px 0 0 21px;
     }
     .pricing__personal-tuition_p-style {
         max-width: 225px;
-        margin: 9px -12px 0 26px;
+        margin: 9px 2px 0 20px;
     }
     .pricing-card__button_personal-tuition {
-        margin: 49px 0 0 26px;
+        margin: 49px 0 0 20px;
     }
     .pricing-card__button_personal-tuition_span-text_alignment {
         margin: 0 6px 0 6px;
         font-size: 24px;
         line-height: 36px;
     }
+    .contact_us__headline_text-h2 {
+        margin: 66px 0 0 256px;
+    }
+    .contact_us__flex {
+        margin-bottom: 105px;
+    }
     .contact_us__image-box {
-        margin: 94px 36px 0 -13px;
+        margin: -52px 36px 0 -13px;
     }
     .contact_us__image__file {
         width: 233px;
-    }
-    .contact_us__headline_text-h2 {
-        margin: 66px 0 0;
     }
     .contact_us__offer_p-style {
         max-width: 392px;
@@ -1326,7 +1395,7 @@ body {
         border-radius: 5px;
         font-size: 12px;
         line-height: 18px;
-        margin: 0px 6px 121px 0;
+        margin: 0px 6px 15px 0;
         padding-left: 23px;
     }
     .contact_us__button {
@@ -1349,7 +1418,7 @@ body {
         margin-top: -4px;
     }
     .footer__nav-bar-box {
-        margin-right: 0;
+        margin-right: 16px;
         padding-top: 11px;
     }
     .footer__nav-bar-item {
@@ -1448,7 +1517,7 @@ body {
         margin: 0 auto;
     }
     .skills__headline_text-h2 {
-        padding: 97px 0 0 28px;
+        padding: 40px 0 0 30px;
         margin-bottom: 33px;
     }
     .skills__grid-box {
@@ -1487,13 +1556,13 @@ body {
         font-size: 18px;
     }
     .skills__speaking_h3-style {
-        margin: -22px 0 -15px 16px;
+        margin: -15px 0 -15px 16px;
     }
     .skills__writing_h3-style {
-        margin: -26px 0 -23px 20px;
+        margin: -19px 0 -23px 20px;
     }
     .skills__reading_h3-style {
-        margin: -7px 0 -16px 16px;
+        margin: 0 0 -16px 16px;
     }
     .skills__listening_h3-style {
         margin: -14px 0 -18px 22px;
@@ -1548,21 +1617,22 @@ body {
     .skills__listening_button__style {
         margin: 0 0 0 19px;    
     }
+    .about_us__headline_text-h2 {
+        margin: 85px 0 0 188px;
+    }
     .about_us__flex {
         flex-direction: column-reverse;
         justify-content: start;
-        padding-top: 10px;
-    }
-    .about_us__text-p {
-        font-size: 14px;
-        line-height: 21px;
+        padding-top: 0;
     }
     .about_us__text-p_alignment {
-        max-width: 321px;
-        margin:-2px 0 4px -1px;
+        text-align: center;
+        max-width: 510px;
+        margin: 18px 0 17px;
     }
     .about_us__the_number__flex-box {
-        max-width: 429px;
+        margin: 0 auto;
+        max-width: 417px;
     }
     .about_us__the_number_of-Teachers__text-box {
         margin-left: 10px;
@@ -1573,174 +1643,172 @@ body {
         margin-top: 0;
     }
     .about_us__the_number_text-h2 {
-        font-size: 22px;
+        font-size: 24px;
+    }
+    .about_us__the_number-Pupils_text-h2 {
+        margin-left: -2px;
+        margin-top: 1px;
     }
     .about_us__the_number-Teachers_text-h2 {
-        margin-left: 5px;
+        margin-left: 12px;
     }
     .about_us__the_number-Foreign-lang_text-h2 {
-        font-size: 22px;
-        color: #2a3246;
-        margin-left: 8px;
+        font-size: 24px;
+        margin-left: 24px;
+        margin-top: -4px;
     }
     .about_us__the_number-Pupils_text-p {
-        margin-top: -10px;
-        margin-left: -5px;
-        font-size: 13px;
-        line-height: 20px;
-    }
-    .about_us__the_number-Teachers_text-p {
-        margin: -13px 0 0 4px;
-        font-size: 13px;
-        line-height: 20px;
-    }
-    .about_us__the_number-Foreign-lang_text-p {
-        margin: -14px -9px 0 0;
-        font-size: 13px;
-        line-height: 20px;
-    }
-    .about_us-image-file {
-        width: 295px;
-        margin: 36px -4px 0 0;
-    }
-    .pricing__headline_text-h2 {
-        padding: 84px 0 0;
-        margin-bottom: 0px;
-    }
-    .pricing__card {
-        margin-right: 0;
-    }
-    .pricing-card__image_self-study {
-        width: 197px;
-        padding: 0;
-        margin: 30px 0 0 -14px;
-    }
-    .pricing__h3-style {
-        font-size: 20px;
-        line-height: 28px;
-    }
-    .pricing__self-study_h3-style {
-        max-width: 174px;
-        padding-top: 16px;
-        margin-left: -2px;
-    }
-    .pricing__p-style {
+        margin-top: -16px;
+        margin-left: 0px;
         font-size: 14px;
         line-height: 21px;
     }
+    .about_us__the_number-Teachers_text-p {
+        margin: -15px 0 0 18px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .about_us__the_number-Foreign-lang_text-p {
+        margin: -10px -15px 0 0;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .about_us-image-file {
+        width: 352px;
+        margin: 22px 0 0 82px;
+    }
+    .pricing__headline_text-h2 {
+        padding: 0;
+        margin: 131px auto 34px;
+    }
+    .pricing-card__image_self-study {
+        width: 291px;
+        padding: 0;
+        margin: 19px auto 0;
+    }
+    .pricing__h3-style {
+        font-size: 24px;
+    }
+    .pricing__self-study_h3-style {
+        max-width: 298px;
+        padding-top: 0;
+        margin: 29px auto 0;
+    }
     .pricing__self-study_p-style {
-        max-width: 195px;
-        padding: 15px 0 0;
-    }
-    .pricing-card__button {
-        font-size: 16px;
-        line-height: 24px;  
-    }
-    .pricing-card__button_span-text-stye {
-        font-size: 22px;
-        line-height: 33px;
+        max-width: 395px;
+        text-align: center;
+        padding: 23px 0 0;
     }
     .pricing-card__button_self-study {
-        margin-top: 23px;
+        margin: 56px 0 0 95px;
     }
     .pricing-card__button_self-study_span-text_alignment {
         margin-right: 16px;
         margin-left: -6px;
     }
     .pricing-card__image_live {
-        width: 219px;
-        height: 168px;
+        width: 314px;
+        height: 241px;
         padding: 0;
-        margin: 60px 0 0 30px;
+        margin: 71px auto 0;
     }
     .pricing__live_h3-style {
-        max-width: 112px;
+        max-width: 225px;
         padding: 0;
-        margin: 16px 0 0 36px;
+        margin: 21px auto 0;
     }
     .pricing__live_p-style {
-        max-width: 213px;
+        max-width: 330px;
         padding: 0;
-        margin: 14px 0 0 36px;
+        margin: 19px auto 0;
+        text-align: center;
     }
     .pricing-card__button_Live {
-        margin: 44px 0 0 36px;
+        margin: 31px 0 0 69px;
     }
     .pricing-card__button_Live_span-text_alignment {
-        margin: 0 9px 0 -6px;
+        margin: 0 10px 0 7px;
     }
     .pricing-card__image_personal-tuition {
-        width: 210px;
-        padding-left: 0;
-        margin: 25px 0 0 27px;
+        width: 253px;
+        margin: 71px 0 0 54px;
     }
     .pricing__personal-tuition_h3-style {
-        max-width: 94px;
-        margin: 8px 0 0 27px;
+        max-width: 198px;
+        margin: 15px 0 0 82px;
     }
     .pricing__personal-tuition_p-style {
-        max-width: 225px;
-        margin: 9px -12px 0 26px;
+        max-width: 357px;
+        text-align: center;
+        margin: 21px 20px 0 0;
     }
     .pricing-card__button_personal-tuition {
-        margin: 49px 0 0 26px;
+        margin: 31px 0 0 78px;
     }
     .pricing-card__button_personal-tuition_span-text_alignment {
         margin: 0 6px 0 6px;
         font-size: 24px;
         line-height: 36px;
     }
+    .contact_us__headline_text-h2 {
+        text-align: center;
+        margin: 164px auto 30px;
+    }
+    .contact_us__flex {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 107px;
+    }
     .contact_us__image-box {
-        margin: 94px 36px 0 -13px;
+        margin: 52px 0 0 12px;
     }
     .contact_us__image__file {
-        width: 233px;
-    }
-    .contact_us__headline_text-h2 {
-        margin: 66px 0 0;
+        width: 358px;
     }
     .contact_us__offer_p-style {
-        max-width: 392px;
-        margin: -10px 2px 26px;
+        max-width: 475px;
+        margin: 28px 17px 59px;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
     }
     .contact_us__form-flex {
         flex-wrap: nowrap;
     }
     .contact_us__input {
-        width: 283px;
-        height: 50px;
-        border-radius: 5px;
-        font-size: 12px;
-        line-height: 18px;
-        margin: 0px 6px 121px 0;
-        padding-left: 23px;
-    }
-    .contact_us__button {
-        width: 145px;
-        height: 50px;
-        border-radius: 5px;
+        width: 511px;
+        height: 60px;
+        border-radius: 10px;
         font-size: 13px;
         line-height: 20px;
-        margin-top: -1px;
+        margin: 0px -194px 17px 0;
+        padding-left: 24px;
+    }
+    .contact_us__button {
+        width: 193px;
+        height: 60px;
+        border-radius: 10px;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 0;
     }
     .footer-line {
-        max-width: 690px;
-        margin: 0 -12px 0 0;
+        max-width: 510px;
+        margin: 0 0 0 1px;
     }
     .footer__flex {
-        padding: 21px 0 9px;
+        padding: 27px 0 20px;
     }
     .footer__logo-box {
-        padding-left: 0;
-        margin-top: -4px;
+        padding-left: 1px;
     }
     .footer__nav-bar-box {
         margin-right: 0;
         padding-top: 11px;
     }
     .footer__nav-bar-item {
-        font-size: 13px;
-        line-height: 19.5px;
+        font-size: 12px;
+        line-height: 18px;
     }
 }
 
